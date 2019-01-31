@@ -1,0 +1,5 @@
+<form (submit)="$event.preventDefault();signIn(login.value, password.value)">
+  <input type="text" #login>
+  <input type="text" #password>
+  <button>Login</button>
+</form>
